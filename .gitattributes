@@ -1,3 +1,15 @@
 
 * text=auto eol=lf
 
+# Keep Windows batch files as CRLF (opcional, mas recomendado)
+*.bat text eol=crlf
+
+# Common binaries (never touch line endings)
+*.exe binary
+*.dll binary
+*.lib binary
+*.png binary
+*.jpg binary
+*.dds binary
+*.bmp binary
+EOF

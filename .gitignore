@@ -3,6 +3,15 @@
 **/build/
 **/build/**
 
+**/Debug/
+**/Release/
+**/x64/
+**/Win32/
+**/obj/
+**/*.tlog/
+*.tlog
+*.lastbuildstate
+
 *.vcxproj.user
 *.suo
 *.user
