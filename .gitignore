@@ -1,2 +1,12 @@
 .vs/
 **/.vs/
+**/build/
+**/build/**
+
+*.vcxproj.user
+*.suo
+*.user
+
+*.log
+*.recipe
+EOF
