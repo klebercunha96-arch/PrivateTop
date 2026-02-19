@@ -1,0 +1,7 @@
+ClearHelpNPC()
+AddHelpNPC("Drunkyard - Anthony")
+print("--------------------------------------------------")
+print("[End] ** Loading Map Files **")
+print("--------------------------------------------------")
+dofile(GetResPath('../addons/antidupe.lua'))
+
