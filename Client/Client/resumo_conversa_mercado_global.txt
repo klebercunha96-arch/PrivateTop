@@ -1,0 +1,29 @@
+Resumo da conversa com GitHub Copilot (GPT-4.1) - Mercado Global
+
+18/02/2026
+
+1. Objetivo: Implementar persistência e integração do Mercado Global em um servidor de jogo, usando arquivos .lua para salvar os itens.
+
+2. Etapas realizadas:
+- Análise dos Addons e scripts do servidor para decidir entre SQL ou arquivo Lua.
+- Implementação de persistência eficiente em arquivo Lua (market_global.lua).
+- Criação do arquivo de dados market_global.lua em PlayerData.
+- Integração dos comandos do cliente com o servidor via handler operateMarketGlobal.
+- Registro do handler para os comandos CMD_CM_MARKET_LIST, CMD_CM_MARKET_ADD, CMD_CM_MARKET_BUY, CMD_CM_MARKET_REMOVE.
+- Adição de feedback visual (PopupNotice) para o jogador ao cadastrar, comprar ou remover itens.
+
+3. Próximos passos sugeridos:
+- Testar o fluxo completo (cadastro, compra, remoção, listagem).
+- Validar mensagens e funcionamento de ponta a ponta.
+- (Opcional) Adicionar logs, auditoria ou melhorias visuais.
+
+4. Dicas para continuar depois:
+- Salve este arquivo ou copie o histórico do chat.
+- Ao retornar, informe o contexto ou cole o resumo para continuar de onde parou.
+
+5. Observação:
+- Para dúvidas, ajustes ou novas funcionalidades, basta pedir!
+
+---
+
+Se quiser o histórico completo detalhado, posso gerar um arquivo maior com todas as mensagens trocadas. Basta solicitar!
